@@ -11,7 +11,7 @@ const options = {
     },
     servers: [
       {
-        url: "http://backend-kantongcrypto-production.up.railway.app/api",
+        url: "https://backend-kantongcrypto-production.up.railway.app/api",
         description: "Development server",
       },
     ],
