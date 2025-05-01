@@ -36,7 +36,9 @@ async function getTotalBalancerForUser(user_id = 1) {
         total_balance += balance;
         walletBalances.push({
           wallet_id: wallet.id,
+          wallet_name: wallet.wallet_name,
           address: wallet.address,
+          is_main_wallet: wallet.is_main_wallet,
           balance_eth: ethers.formatEther(balance),
         });
       } catch (err) {
